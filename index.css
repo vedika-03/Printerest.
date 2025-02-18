@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    height: 100vh;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.plus{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(136, 20, 172);
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.ri-add-line{
+    color: white;
+    font-size: 29px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+.box2{
+    height: 100px;
+    width: 70%;
+    /* background-color: burlywood; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.b1{
+    height: 50px;
+    width: 170px;
+    background-color: rgba(128, 128, 128, 0.055);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  rgb(136, 20, 172);
+
+}
+ 
+.alltodos{
+    height: 50px;
+    width: 170px;
+    background-color: rgb(136, 20, 172);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: rgb(255, 255, 255);
+} 
+.worry{
+    height: 50px;
+    width: 600px;
+    background-color: rgb(252, 255, 255);
+    border: 2px  rgb(136, 20, 172) solid;
+     display: flex;
+     padding: 10px;
+     column-gap: 10px;
+     align-items: center;
+     /* justify-content: center; */
+     border-radius: 10px;
+}
+
+.happy{
+    height: 50px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px  rgb(197, 69, 214) solid; */
+     display: flex;
+     padding: 10px;
+     column-gap: 10px;
+     align-items: center;
+     margin-top: 10px;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.103) 0px 1px 4px;
+}
+.bin{
+    height: 50px;
+    width: 50px;
+    background-color:  rgb(136, 20, 172);
+    border-radius: 50%;
+   /* background-color: bluevi; */
+    margin-top: 30px;
+}
+.ri-delete-bin-7-fill{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px; 
+}
